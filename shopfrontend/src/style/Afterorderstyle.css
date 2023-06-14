@@ -1,0 +1,29 @@
+.details-div{
+    display: flex;
+    flex-direction: column;
+    max-width: 26rem;
+    margin: auto;
+    border-radius: 7px;
+    background: gainsboro;
+    border: 2px solid darkgray;
+    padding: 1rem;
+}
+
+.details-a{
+    font-weight: bold;
+}
+
+.details-h{
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}

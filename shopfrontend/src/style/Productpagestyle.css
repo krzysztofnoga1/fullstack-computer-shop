@@ -1,0 +1,99 @@
+.help-div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.main-div{
+    width:60%;
+    border: 2px solid darkgray;
+    border-radius: 7px;
+    background-color: gainsboro;
+}
+
+.product-img{
+    height: 15rem;
+    width: 15rem;
+    margin: 1rem;
+}
+
+.upper-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.upper-right-div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.product-name{
+    font-size: 20px;
+}
+
+.product-price{
+    font-size: 24px;
+}
+
+.button-holder{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+}
+
+.cart-button{
+    border: none;
+    padding: 0.5rem;
+    margin-bottom: 0.75rem;
+    border-radius: 5px;
+    background-color: rgba(43, 73, 194, 0.8);
+    font-size: 18px;
+    color: white;
+    margin-right: 1rem;
+}
+
+.cart-button:hover{
+    cursor:pointer;
+}
+
+.cart-button:active{
+    background-color: rgb(64, 61, 245);
+}
+
+.lower-div{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    border-top: 2px solid darkgray;
+}
+
+.lower-left-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.lower-right-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+
+.spec-a{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.spec-a-right{
+    margin-top: 0.5rem;
+    font-size: 16px;
+}

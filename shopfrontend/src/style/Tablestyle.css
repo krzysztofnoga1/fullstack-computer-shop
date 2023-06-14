@@ -1,0 +1,142 @@
+.table{
+    width: auto;
+    margin-top: 1rem;
+    border-spacing: 0;
+}
+
+.table td{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.table td:nth-child(6){
+    word-wrap: break-word;
+    max-width: 10rem;
+}
+
+.table td:nth-child(2){
+    word-wrap: break-word;
+    max-width: 13rem;
+}
+
+.table td:nth-child(9){
+    word-wrap: break-word;
+    max-width: 10rem;
+}
+
+.table td:nth-child(8){
+    word-wrap: break-word;
+    max-width: 10rem;
+}
+
+.head{
+    text-align: left;
+}
+
+
+.head :nth-last-child(1){
+    text-align: center;
+}
+
+.head :nth-last-child(2){
+    text-align: center;
+}
+
+.head :nth-child(2){
+    word-wrap: break-word;
+    max-width: 13rem;
+}
+
+.head th:nth-child(9){
+    word-wrap: break-word;
+    max-width: 10rem;
+}
+
+.head :nth-child(6){
+    word-wrap: break-word;
+    max-width: 10rem;
+}
+
+.head th:nth-child(8){
+    word-wrap: break-word;
+    max-width: 10rem;
+}
+
+.table th{
+    margin: 0;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-collapse: separate;
+    border-bottom: solid black;
+}
+
+.edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 2px;
+    background-color:rgba(43, 73, 194, 0.8);
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.delete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 2px;
+    background-color: red;
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.delete:hover{
+    cursor: pointer;
+}
+
+.edit:hover{
+    cursor: pointer;
+}
+
+.delete:active{
+    background-color: darkred;
+}
+
+.edit:active{
+    background-color: blue;
+}
+
+.img{
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.add-button{
+    background-color: rgba(43, 73, 194, 0.8);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.add-button:hover{
+    cursor: pointer;
+}
+
+.add-button:active{
+    background-color: blue;
+}
+
+.table-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}

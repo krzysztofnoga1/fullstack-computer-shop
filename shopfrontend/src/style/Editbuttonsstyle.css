@@ -1,0 +1,26 @@
+.edit-bottom-div{
+    margin-top: 2rem;
+    display: flex;
+    width: 60%;
+    margin-bottom: 2rem;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.edit-button{
+    border-radius: 5px;
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    background-color: rgba(43, 73, 194, 0.8);
+    font-size: 14px;
+    color: white;
+}
+
+.edit-button:hover{
+    cursor: pointer;
+}
+
+.edit-button:active{
+    background-color: rgb(64, 61, 245);
+}
