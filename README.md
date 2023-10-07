@@ -1,6 +1,6 @@
 # Shop with computer parts 🖥️
 
-### Website of shop with computer parts. Made with React, Spring Boot and PostgreSQL.
+### Website of shop with computer parts. Made with React.js, Spring Boot and PostgreSQL.
 
 # Key features ⚙️
 - Registraion and login forms
