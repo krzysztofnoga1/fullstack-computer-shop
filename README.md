@@ -10,7 +10,7 @@
 
 # Live demo 🎥
 
-
+https://github.com/krzysztofnoga1/fullstack-computer-shop/assets/103099396/688ab0da-e613-46bd-8f21-da75909bd95b
 
 # Screenshots 📸
 
